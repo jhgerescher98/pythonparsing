@@ -19,6 +19,6 @@ for item, value in dic.items():
     if item[0] == '3':
         print(item, value)
         total += value
-print("The total number of errors is", total)
+print("The total number of redirected records is", total)
 percent = total / grandtotal * 100
-print("The percentage of errors is",percent,'%')
+print("The percentage of redirected records is",percent,'%')
